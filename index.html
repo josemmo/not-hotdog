@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>Hotdog or Not Hotdog</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#21a8c6">
+    <link rel="icon" href="images/hotdog.png">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <!-- OVERLAY -->
+    <div id="overlay">
+      <div class="result"></div>
+      <div class="dialog">Concede acceso a la cámara para continuar</div>
+    </div>
+
+    <!-- CAMERA UI -->
+    <video id="camera" autoplay></video>
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="worker-installer.js"></script>
+    <script type="text/javascript" src="tensorflow.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
