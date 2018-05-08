@@ -6,5 +6,8 @@ Yet another sample project using [TensorFlow.js](https://js.tensorflow.js/) and 
 
 [![View video](https://img.youtube.com/vi/ACmydtFDTGs/mqdefault.jpg)](https://www.youtube.com/watch?v=ACmydtFDTGs)
 
+## Additional resources
+- [Presentation in PDF (Spanish)](https://github.com/josemmo/not-hotdog/releases/download/v0.0.1/Presentation.Spanish.pdf)
+
 ## License
 This project in under the MIT License. You can freely do whatever you want with its code as long as you credit the author.
